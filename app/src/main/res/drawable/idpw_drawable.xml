@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <size android:width="100dp" android:height="40dp"  />
+    <stroke android:width="1dp" android:color="#004455" android:dashWidth="5dp" android:dashGap="7dp" />
+    <!-- 테두리 점선 -->
+    <!-- dashWidth는 선 하나하나의 크기고, dashGap은 선 하나를 그리고 얼마를 띄고 다시 그릴지를 의미 -->
+    <solid android:color="#ffffff" />
+    <corners android:radius="4dp" />
+    <padding android:bottom="10dp" android:right="10dp" android:top="10dp" android:left="10dp" />
+
+    <!-- <corners android:bottomLeftRadius="50dp" android:topRightRadius="50dp"/> -->
+    <!--이렇게 모서리를 지정해 둥글게도 할 수 있다. 오른쪽 위와 왼쪽 아래 지정-->
+</shape>
